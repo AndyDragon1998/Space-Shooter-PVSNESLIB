@@ -8,6 +8,11 @@ IntroPic:
 .incbin "Graphics/Images/pvsneslib.pic"
 IntroPic_end:
 
+
+.ends
+
+.section ".rodata2" superfree
+
 IntroMap:
 .incbin "Graphics/Images/pvsneslib.map"
 IntroMap_end:
@@ -15,14 +20,5 @@ IntroMap_end:
 IntroPal: 
 .incbin "Graphics/Images/pvsneslib.pal"
 IntroPal_end:
-
-TitlePic:
-.incbin "Graphics/Images/Title.pic"
-TitlePic_end:
-
-TextyPic:
-.incbin "Graphics/Images/Beginner.pic"
-TextyPic_end:
-
 
 .ends
