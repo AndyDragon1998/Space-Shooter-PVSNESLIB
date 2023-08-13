@@ -1,0 +1,23 @@
+/*****************************************************************************/
+/*  Автор         		: Дракончик				                             */
+/*  Приставка     		: Super Nintendo Entertainment System	             */
+/*  Язык	      		: GNU TCC C                                          */
+/*                                                                           */
+/*  Содержимое файла	: Стадия логотипов			                         */
+/*  Атрибут файла		: EXTERNAL                                           */
+/*  Имя файла     		: introState.ext                                     */
+/*                                                                           */
+/*****************************************************************************/
+
+extern StateMachine GameMachineState;
+
+extern char IntroPic;
+extern char IntroPic_end;
+
+extern char IntroPal;
+extern char IntroPal_end;
+
+extern char IntroMap;
+extern char IntroMap_end;
+
+
