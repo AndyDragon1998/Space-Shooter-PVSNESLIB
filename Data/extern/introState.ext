@@ -9,7 +9,6 @@
 /*                                                                           */
 /*****************************************************************************/
 
-extern StateMachine GameMachineState;
 
 extern char IntroPic;
 extern char IntroPic_end;

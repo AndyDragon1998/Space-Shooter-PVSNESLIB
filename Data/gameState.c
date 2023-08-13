@@ -9,6 +9,8 @@
 /*                                                                           */
 /*****************************************************************************/
 
+#include <snes.h>
+
 #include "include/gameState.h"
 #include "include/menuState.h"
 #include "include/overState.h"
