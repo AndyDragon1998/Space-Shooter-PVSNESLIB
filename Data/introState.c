@@ -9,16 +9,12 @@
 /*                                                                           */
 /*****************************************************************************/
 
-#include <snes.h>
-
 #include "include/gameState.h"
 #include "include/menuState.h"
 #include "include/overState.h"
 #include "include/introState.h"
 
 #include "extern/introState.ext"
-
-extern StateMachine GameMachineState;
 
 void IntroStart()
 {
@@ -33,18 +29,17 @@ void IntroStart()
     bgSetDisable(1);
     bgSetDisable(2);
     setScreenOn();
-    consoleNocashMessage("Intro Start\n");
 
 }
 
 void IntroUpdate()
 {
-	consoleNocashMessage("Intro Update\n");
+
 }
 
 void IntroDraw()
 {
-	//WaitForVBlank();
+	WaitForVBlank();
 }
 
 void IntroEnd()

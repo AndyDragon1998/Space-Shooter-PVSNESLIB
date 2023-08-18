@@ -1,6 +1,8 @@
 #ifndef STATE_MANAGER
 #define STATE_MANAGER
 
+#include <snes.h>
+
 typedef void _voidCallBack();
 
 typedef struct

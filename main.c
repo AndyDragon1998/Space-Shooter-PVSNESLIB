@@ -25,8 +25,6 @@ int main(void)
     consoleInit();
 
 	StateMachineStart(&GameMachineState, &IntroState);
-	
-
 
     while (1)
     {
@@ -34,6 +32,8 @@ int main(void)
         StateMachineUpdate(&GameMachineState);
 		
 		StateMachineDraw(&GameMachineState);
+		
+		
         
     }
     return 0;
